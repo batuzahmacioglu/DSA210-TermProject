@@ -37,3 +37,6 @@ Summarize results, interpret statistical patterns, relate trends to developments
 ________________________________________
 ## Expected Outcomes
 By analyzing home-win rates across European football leagues between 2000 and 2024, I expect to observe that home advantage has changed over time rather than remaining constant. It is possible that home advantage has gradually decreased due to factors such as improved refereeing consistency (with the help of technological advances such as VAR), tactical evolution, and better travel conditions for away teams. However, certain periods may show stronger or weaker home effects depending on changes in competitive balance and football environments. The results will reveal whether there is a clear long-term trend, stability, or fluctuation in home advantage across seasons.
+
+<img width="1098" height="544" alt="Ekran Resmi 2025-11-30 17 30 48" src="https://github.com/user-attachments/assets/615b6370-2094-4f2a-87fa-3f5ff6082591" />
+
