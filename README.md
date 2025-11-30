@@ -37,6 +37,22 @@ Summarize results, interpret statistical patterns, relate trends to developments
 ________________________________________
 ## Expected Outcomes
 By analyzing home-win rates across European football leagues between 2000 and 2024, I expect to observe that home advantage has changed over time rather than remaining constant. It is possible that home advantage has gradually decreased due to factors such as improved refereeing consistency (with the help of technological advances such as VAR), tactical evolution, and better travel conditions for away teams. However, certain periods may show stronger or weaker home effects depending on changes in competitive balance and football environments. The results will reveal whether there is a clear long-term trend, stability, or fluctuation in home advantage across seasons.
+________________________________________
 
+##Exploratory Data Analysis (EDA)
 <img width="1098" height="544" alt="Ekran Resmi 2025-11-30 17 30 48" src="https://github.com/user-attachments/assets/615b6370-2094-4f2a-87fa-3f5ff6082591" />
+This plot shows how the home win rate has changed over the last 25 years across major European domestic leagues.
+
+Key Insights
+Home win rate starts at around 48–49% in 2000, the highest point in the dataset.
+There is a clear and steady decline throughout the 2000s and 2010s.
+The most dramatic drop occurs in 2020, when matches were played without fans due to COVID-19 restrictions.
+After 2020, home win rates partially recover but never return to pre-2010 levels.
+Overall, the long-term trend reveals a significant weakening in home advantage.
+
+What This Shows
+This graph provides strong visual evidence that home advantage has declined over time, and the 2020 no-fans season had a major impact. It supports the idea that:
+crowd presence matters,tactical and travel improvements reduce home bias, and football is becoming more balanced between home and away teams.
+
+<img width="1117" height="562" alt="Ekran Resmi 2025-11-30 17 37 39" src="https://github.com/user-attachments/assets/8056e327-9e13-4b66-b400-7562c71a0356" />
 
