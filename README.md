@@ -167,17 +167,55 @@ The decline is statistically significant and visually supported by multiple metr
 Changes in travel, tactics, officiating, and especially the 2020 fan-free season likely contributed to this trend.
 ________________________________________
 
-## Machine Learning (January 2 Deliverable)
+## Machine Learning 
 
-A baseline machine learning model was implemented to predict whether the home team wins a match.
+A supervised machine learning approach was applied to the dataset to predict match outcomes.  
+Specifically, the task was framed as a **binary classification problem**: predicting whether the home team wins a match.
 
-- **Target:** HomeWin (1 = home win, 0 = otherwise)
-- **Features:** HomeElo, AwayElo, Form5Home, Form5Away (pre-match only)
-- **Model:** Logistic Regression
-- **Evaluation:** Accuracy
-- **Result:** 0.628 accuracy
+### Problem Definition
+- **Objective:** Predict whether the home team wins a given match
+- **Type:** Binary classification
 
-This demonstrates that pre-match team strength and recent form contain meaningful predictive power.
+### Target Variable
+- **HomeWin**
+  - 1 if the home team scores more goals than the away team
+  - 0 otherwise (draw or away win)
+
+This target was constructed directly from full-time match scores.
+
+### Feature Selection
+Only **pre-match features** were used to avoid data leakage. These features are all known before kickoff:
+
+- **HomeElo:** Elo rating of the home team  
+- **AwayElo:** Elo rating of the away team  
+- **Form5Home:** Recent form of the home team (last 5 matches)  
+- **Form5Away:** Recent form of the away team (last 5 matches)
+
+These variables capture both long-term team strength and short-term performance trends.
+
+### Model Choice
+- **Logistic Regression** was chosen as a baseline model due to its:
+  - Simplicity
+  - Interpretability
+  - Suitability for binary classification tasks
+
+The goal at this stage was not to maximize predictive performance, but to demonstrate a correct and meaningful application of machine learning.
+
+### Training and Evaluation
+- **Train–test split:** 75% training, 25% testing
+- **Evaluation metric:** Accuracy
+
+### Results
+- **Accuracy:** 0.628
+
+This result is substantially higher than random guessing and indicates that pre-match team strength and recent form contain meaningful predictive information about match outcomes.
+
+### Interpretation
+The model’s performance confirms that:
+- Home advantage is partially explained by measurable factors such as Elo ratings and recent form
+- Even a simple baseline model can capture non-trivial structure in football match data
+
+This machine learning analysis serves as an initial benchmark and satisfies the January 2 deliverable requirements.
 
 
 
