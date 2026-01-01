@@ -132,6 +132,17 @@ The 2020 no-fan season accelerating the drop
 Together, these results confirm that home advantage has weakened in modern European football.
 ________________________________________
 
+### Hypothesis Test Results (Summary)
+
+
+| Test | Comparison | Metric | Statistical Test | Test Statistic | p-value | Conclusion |
+|------|------------|--------|------------------|---------------:|--------:|------------|
+| Test 1 | Home vs Away teams | Goals scored | Welch’s t-test | 96.13 | < 0.001 | Home teams score significantly more goals |
+| Test 2 | 2000–2010 vs 2011–2024 | Home win rate | Welch’s t-test | 7.81 | 5.86×10⁻¹⁵ | Home advantage changed significantly over time |
+
+
+________________________________________
+
 ## Findings Summary
 
 1. Trends in Home Advantage (2000–2024)
