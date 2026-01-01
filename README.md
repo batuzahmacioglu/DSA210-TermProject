@@ -167,6 +167,19 @@ The decline is statistically significant and visually supported by multiple metr
 Changes in travel, tactics, officiating, and especially the 2020 fan-free season likely contributed to this trend.
 ________________________________________
 
+## Machine Learning (January 2 Deliverable)
+
+A baseline machine learning model was implemented to predict whether the home team wins a match.
+
+- **Target:** HomeWin (1 = home win, 0 = otherwise)
+- **Features:** HomeElo, AwayElo, Form5Home, Form5Away (pre-match only)
+- **Model:** Logistic Regression
+- **Evaluation:** Accuracy
+- **Result:** 0.628 accuracy
+
+This demonstrates that pre-match team strength and recent form contain meaningful predictive power.
+
+
 
 
 
