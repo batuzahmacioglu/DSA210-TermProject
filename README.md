@@ -169,6 +169,11 @@ ________________________________________
 
 ## Machine Learning 
 
+The machine learning pipeline was implemented using scikit-learn.
+The dataset was split into training and testing sets.
+A supervised learning model was trained and evaluated using standard
+performance metrics to assess predictive capability.
+
 A supervised machine learning approach was applied to the dataset to predict match outcomes.  
 Specifically, the task was framed as a **binary classification problem**: predicting whether the home team wins a match.
 
@@ -220,6 +225,11 @@ This machine learning analysis serves as an initial benchmark and satisfies the 
 ________________________________________
 
 ## Findings
+
+One notable observation from the analysis was that certain features
+showed stronger relationships with the target variable, indicating
+their importance in the prediction task.
+
 The analysis revealed meaningful patterns in the dataset.
 The machine learning model achieved reasonable performance,
 indicating that the selected features contain predictive information.
@@ -237,6 +247,14 @@ ChatGPT was used to assist with structuring code,
 debugging coding-related errors, and improving the clarity of explanations
 in the README. All analysis, implementation, and final decisions
 were reviewed and completed by myself.
+
+________________________________________
+
+## Repository Structure
+- data/: datasets used in the project
+- notebooks/: analysis and machine learning notebooks
+
+
 
 
 
