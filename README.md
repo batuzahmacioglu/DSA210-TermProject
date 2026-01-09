@@ -217,6 +217,28 @@ The model’s performance confirms that:
 
 This machine learning analysis serves as an initial benchmark and satisfies the January 2 deliverable requirements.
 
+________________________________________
+
+## Findings
+The analysis revealed meaningful patterns in the dataset.
+The machine learning model achieved reasonable performance,
+indicating that the selected features contain predictive information.
+The results suggest that data-driven approaches can be useful
+for understanding trends in the chosen domain.
+
+## Limitations and Future Work
+The project is limited by the size and scope of the dataset.
+Future work could include collecting more data, trying additional
+machine learning models, performing hyperparameter tuning,
+and applying more advanced evaluation techniques.
+
+## AI Usage Disclosure
+ChatGPT was used to assist with structuring code,
+debugging coding-related errors, and improving the clarity of explanations
+in the README. All analysis, implementation, and final decisions
+were reviewed and completed by myself.
+
+
 
 
 
